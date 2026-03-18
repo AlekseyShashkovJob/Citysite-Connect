@@ -4,8 +4,6 @@ namespace View.UI.Menu
 {
     public class NoInternetScreen : UIScreen
     {
-        [SerializeField] private Misc.SceneManagment.SceneLoader _sceneLoader;
-
         [SerializeField] private GameObject _backgroundPortrait;
         [SerializeField] private GameObject _backgroundLandscape;
 

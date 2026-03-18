@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "28911846974",
+    "project_id": "citysite-connect",
+    "storage_bucket": "citysite-connect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28911846974:ios:6184cc96a94080c0cfb36f",
+        "android_client_info": {
+          "package_name": "com.cicon.citysiteconnect"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Rbn1DphW7PY348TOTaA-C9PEBtuObLc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
