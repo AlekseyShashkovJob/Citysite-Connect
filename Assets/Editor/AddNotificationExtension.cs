@@ -123,7 +123,7 @@ public static class AddNotificationExtension
         sb.AppendLine("source 'https://cdn.cocoapods.org/'");
         sb.AppendLine("platform :ios, '15.0'");
         sb.AppendLine();
-        sb.AppendLine("use_frameworks!");
+        sb.AppendLine("use_frameworks! :linkage => :static");
         sb.AppendLine();
         sb.AppendLine("target 'UnityFramework' do");
         sb.AppendLine("  pod 'AppsFlyerFramework', '6.17.8'");
