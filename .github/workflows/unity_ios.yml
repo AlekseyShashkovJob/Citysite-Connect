@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
       matrix:
         unity-version:
-          - ${{ vars.UNITY_VERSION || '2022.3.62f3' }}
+          - ${{ vars.UNITY_VERSION || '6000.3.11f1' }}
         os:
           - ubuntu-latest
         targetPlatform:
@@ -68,7 +68,7 @@ jobs:
       fail-fast: false
       matrix:
         unity-version:
-          - ${{ vars.UNITY_VERSION || '2022.3.62f3' }}
+          - ${{ vars.UNITY_VERSION || '6000.3.11f1' }}
         targetPlatform:
           - iOS
     steps:
